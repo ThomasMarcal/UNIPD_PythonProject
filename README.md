@@ -1,5 +1,15 @@
 # Earthquake Data Analysis
 
+-------------------------------
+
+## Contributors
+
+- BLAIN Alix
+- L'HOSTIS Théo
+- MARÇAL Thomas
+- NOUAILLE Thomas
+
+-------------------------------
 ## Overview
 
 The "Earthquake Data Analysis" project involves the analysis of a dataset (referred to as the "catalog") containing earthquake records from South California spanning approximately 20 years. This catalog provides information on earthquake magnitudes, occurrence times (in seconds), and 3D coordinates (in meters) of the earthquake hypocenters.
@@ -34,17 +44,4 @@ This project involves several tasks:
 
 4. **Waiting Time Distribution with Distance Constraint**: Analyze the waiting times (t) for events with magnitude equal to or above M_min, but also consider a maximum distance (d_max) constraint between consecutive earthquakes. If the next event is farther than d_max, skip it and move to the next pair. Repeat this analysis for different values of M_min and d_max.
 
-## Scaling Law Analysis
-
-After completing the above assignments, comment on whether you observe any scaling laws in the data. Explore whether rescaling the distributions for various values of M_min and d_max collapses them onto a single curve, indicating the presence of scaling behavior.
-
-## Contributors
-
-- BLAIN Alix
-- L'HOSTIS Théo
-- MARÇAL Thomas
-- NOUAILLE Thomas 
-
-Feel free to contribute to this project by forking the repository and submitting pull requests. If you have any questions or suggestions, please open an issue.
-
-Happy analyzing earthquakes!
+5. **Scaling Law Analysis**: After completing the above assignments, comment on whether you observe any scaling laws in the data. Explore whether rescaling the distributions for various values of M_min and d_max collapses them onto a single curve, indicating the presence of scaling behavior.
